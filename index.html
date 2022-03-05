@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Three.js revieW</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+<header>
+    <div id="header">
+        <h1>Three.js</h1>
+    </div>
+</header>
+<main>
+    <div id="main">
+        <div id="image">
+            <img src="images/mainImage.jpg" alt="main-image">
+        </div>
+        <div>
+            <h2>Оглавление</h2>
+            <nav>
+                <a href="#acquaintance">Знакомство</a>
+                <a href="#detailed">Подробнее о Three.js</a>
+                <a href="#links">Ссылки</a>
+            </nav>
+        </div>
+        <div id="content">
+            <h3 id="acquaintance">Знакомство</h3>
+            <p><a href="https://threejs.org/"><i>Three.js</i></a> – это библиотека JavaScript, содержащая набор
+                готовых классов для создания и отображения интерактивной 3D графики в
+                <a href="https://www.khronos.org/webgl/"><i>WebGL</i></a>.</p>
+            <p>Three.js для WebGL — это то же самое, что jQuery для JavaScript. Библиотека предлагает декларативный
+                синтаксис, и абстрагирует от трудностей связанных с 3D в браузере.</p>
+            <h3 id="detailed">Немного углубимся</h3>
+            <p>Как уже упоминалось, библиотека Three.js облегчает работу с WebGL. При использовании Three.js нет
+                необходимости в написании шейдеров (но возможность остается), и появляется возможность работать
+                привычными понятиями.</p>
+            <p>Над библиотекой работает большое количество разработчиков. Главным разработчиком и идеологом является
+                Ricardo Cobello, известный под творческим псевдонимом Mr.Doob.</p>
+            <p>Моделирование графики с помощью данной библиотеки можно сравнить со съемочной площадкой, так как
+                есть возможность оперировать такими понятиями как сцена, свет, камера, объекты и их материалы.<p>
+
+            <p>Три основных составляющих Three.js включают в себя:
+                <ul>
+                    <li>Scene — своеобразная платформа, где размещаются все объекты, которые мы создаем;</li>
+                    <li>Camera — по сути — это “глаз”, который будет направлен на сцену. Камера снимает и
+                        отображает объекты, которые расположены на сцене;</li>
+                    <li>Renderer — визуализатор, который позволяет показывать сцену, снятую камерой.</li>
+                </ul>
+            </p>
+            <p>В Three.js существует несколько типов камеры:
+                <ul>
+                    <li>Perspective Camera</li>
+                    <li>Stereo Camera</li>
+                    <li>Orthographic Camera</li>
+                    <li>Cube Camera</li>
+                </ul>
+            </p>
+            <p>Самые распространенные из них — это Perspective Camera и Orthographic Camera.</p>
+            <h3 id="links">Ссылки</h3>
+            <p>
+            <ul>
+                <li><a href="https://threejs.org/"><i>Официальный сайт three.js</i></a></li>
+                <li><a href="https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene"><i>Документация</i></a></li>
+                <li><a href="https://threejs.org/examples/#webgl_animation_keyframes"><i>Примеры</i></a></li>
+                <li><a href="https://threejs.org/editor/"><i>Редактор</i></a></li>
+                <li><a href="https://ru.wikipedia.org/wiki/Three.js"><i>Статья на Wikipedia</i></a></li>
+                <li><a href="https://habr.com/ru/post/494810/"><i>Полезная статья на хабре</i></a></li>
+            </ul>
+            </p>
+        </div>
+    </div>
+</main>
+<div id="button"><button>Наверх</button></div>
+</body>
+</html>
